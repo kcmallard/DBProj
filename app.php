@@ -15,7 +15,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 $sql = "INSERT INTO Users (username, password) VALUES ('$username', '$password')";
-$result = $conn->query($sql);
+$result = $conn->multi_query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
