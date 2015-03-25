@@ -1,2 +1,0 @@
-# DBProj
-SQL Injection Site

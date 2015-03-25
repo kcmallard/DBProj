@@ -11,10 +11,14 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
+$pnum = $_POST['pnum'];
+$cc = $_POST['cc'];
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$sql = "INSERT INTO Users (username, password) VALUES ('$username', '$password')";
+$sql = "INSERT INTO Users (fname, lname, cc, pnum, username, password) VALUES ('$fname', '$lname', '$cc', '$pnum', '$username', '$password')";
 $result = $conn->multi_query($sql);
 
 if ($result->num_rows > 0) {

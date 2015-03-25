@@ -7,9 +7,11 @@ head {
 }
 
 div {
-	background-color: lightblue;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
 }
 
-title {
-	background-color: lightblue;
+legend {
+	text-align: center;
 }
