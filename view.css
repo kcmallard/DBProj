@@ -1,17 +1,40 @@
-body {
-	background-color: lightblue;
+#header {
+    background-color: black;
+    color:white;
+    clear:both;
+    text-align: left;
+    padding:5px; 
 }
 
-head {
-	background-color: lightblue;
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:500px;
+    width:100px;
+    float:left;
+    padding:5px; 
 }
 
-div {
-	margin-left: auto;
-	margin-right: auto;
-	vertical-align: middle;
+h2 {
+    text-align: center;
 }
 
-legend {
-	text-align: center;
+fieldset {
+    margin: auto;
+}
+
+#inputs {
+    text-align: center;
+}
+
+#vote {
+    text-align: center;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:right;
+    padding:5px; 
 }

@@ -27,7 +27,8 @@ if ($result->num_rows > 0) {
         echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
     }
 } else {
-    echo "You've been added as a new user!";
+    header('Location: index.html');
 }
+
 $conn->close();
 ?>
