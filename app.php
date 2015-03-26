@@ -27,7 +27,7 @@ if ($result->num_rows > 0) {
         echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
     }
 } else {
-    header('Location: index.html');
+    header('Location: registered.html');
 }
 
 $conn->close();

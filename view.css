@@ -1,3 +1,31 @@
+body {
+    background-color: lightblue;
+    font-family: Georgia, Serif;
+}
+
+p {
+    font-size: 150%;
+    color: #333333;
+}
+
+b {
+    font-size: 150%;
+    color: #333333;
+}
+
+#maria {
+    float: left;
+    padding-left: 325px;
+}
+
+#kyle {
+    float: center;
+}
+
+#fsection {
+    text-align: center;
+}
+
 #header {
     background-color: black;
     color:white;
@@ -17,6 +45,8 @@
 
 h2 {
     text-align: center;
+    color: #333333;
+    font-family: Georgia, Serif;
 }
 
 fieldset {
